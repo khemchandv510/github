@@ -1,0 +1,23 @@
+git config --global user.name ""
+git config --global user.email ""
+
+git config --global --edit
+
+git status
+git status -s
+git add .   or git add -A  [both add all files on stage]
+git add new.js
+
+git commit 
+git commit -m "comment will be here"
+git checkout -f  
+git checkout new.js
+
+git diff [filename]  show difference on file 
+git diff stage [compare with stage]  
+
+git rm new.html [delete file from git or local]
+git rm --cached [delete file from git but not delete from local]
+
+bit branch newbranch [make new branch]
+git checkout newbranch [switch branch]
